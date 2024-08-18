@@ -1,5 +1,5 @@
-require 'custom.keymaps'
-require 'custom.preferences'
+require 'keymaps'
+require 'preferences'
 
 -- Set <space> as the leader key
 -- See `:help mapleader`
@@ -489,6 +489,7 @@ require('lazy').setup({
         -- gopls = {},
         pyright = {},
         rust_analyzer = {},
+        tsserver = {},
         -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
         --
         -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -796,19 +797,19 @@ require('lazy').setup({
   --  Here are some example plugins that I've included in the Kickstart repository.
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
-  require 'kickstart.plugins.debug',
-  require 'kickstart.plugins.indent_line',
-  require 'kickstart.plugins.lint',
-  require 'kickstart.plugins.autopairs',
-  require 'kickstart.plugins.neo-tree',
-  require 'kickstart.plugins.gitsigns', -- adds gitsigns recommend keymaps
+  require 'plugins.kickstart.debug',
+  require 'plugins.kickstart.indent_line',
+  require 'plugins.kickstart.lint',
+  require 'plugins.kickstart.autopairs',
+  require 'plugins.kickstart.neo-tree',
+  require 'plugins.kickstart.gitsigns', -- adds gitsigns recommend keymaps
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   -- For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
-  { import = 'custom.plugins' },
+  { import = 'plugins' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
