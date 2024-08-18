@@ -1,14 +1,49 @@
-# kickstart.nvim
+# Configuracion bien chida para nvim
 
-## Introduction
+## Introduccion
 
-A starting point for Neovim that is:
+Configurado a partir del repositorio de ['kickstart.nvim']("https://github.com/nvim-lua/kickstart.nvim"),
+pensado para ser una plantilla de inicio para personalizar tu experiencia en nvim a tu gusto.
 
-* Small
-* Single-file
-* Completely Documented
+Este repositorio en concreto es mi configuración actual, depende de lo que te interese puedes: 
+* Descargarlo y usarlo tal cual
+* Clonar el repositorio y usar lo que esté usando en cada momento
+* Hacer 'fork', y crear tu propio repositorio a partir de este
 
-**NOT** a Neovim distribution, but instead a starting point for your configuration.
+Aparte de los requerimientos que tenía el repositorio inicial, los cuales se encuentran [aquí](##Installation)
+las modificaciones que he ido haciendo requiren recursos adicionales, como algún gestor de paquetes para instalar 
+ciertos LSP (lo que te da sugerencias y analiza tu codigo en tiempo real vaya).
+
+Con respecto a esto, puedes hacer 'fork' del repositorio , comentar lo que el codigo dice que comentes si no 
+quieres instalar estos recursos porque no los vas a usar, o instalar todo si quieres usar mi versión exacta
+(Lo mantendré actualizado dw)
+
+**ANTES DE NADA**: Si es tu primera vez con Neovim, empieza aprendiendo Neovim XD. /Enlace/
+
+## Recursos adicionales
+
+Para instalar la mayor parte de los recursos, recomiendo tener [chocolatey]("https://chocolatey.org/install"), 
+gestor de paquetes muy cómodo para **Windows**, si tienes wget seguramente te sirva también.
+En **Linux**, ```sudo apt install ____```(Ubuntu, la equivalente para tu distro) suele poder con todo.
+
+Ahora si:
+
+### npm -> Node Pack Manager
+Varios LSP buscan esto para instalarse asi que aunque no utilices los mismos que yo, seguramente lo necesites
+en un futuro:
+
+**Windows** ```choco install npm```
+**Linux** ```sudo apt install npm```
+
+### 
+
+
+
+
+
+
+Abajo dejo la info de instalación de nvim y los requerimientos de
+kickstart para cada sistema
 
 ## Installation
 
