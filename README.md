@@ -6,14 +6,14 @@ Si es tu primera vez usando esta herramienta, o simplemente para acceder a la do
 que he ido construyendo la mía. Puedes probarla así tal cual y hacer tu la tuya, pero además tienes la mía
 como modelo de como podrías hacerla.
 
-['Kickstart / kickstart.nvim']("https://github.com/nvim-lua/kickstart.nvim")
+[Kickstart / kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 Contiene toda la información necesaria, tanto como para instalar Neovim, como aprender a usarlo, recomendable
 leerlo bien antes de usar el mío.
 
 ## Introduccion
 
-Configurado a partir del repositorio de ['kickstart.nvim']("https://github.com/nvim-lua/kickstart.nvim"),
+Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim),
 pensado para ser una plantilla de inicio para personalizar tu experiencia en nvim a tu gusto.
 
 Este repositorio en concreto es mi configuración actual, depende de lo que te interese puedes: 
@@ -31,7 +31,7 @@ quieres instalar estos recursos porque no los vas a usar, o instalar todo si qui
 
 ## Recursos adicionales
 
-Para instalar la mayor parte de los recursos, recomiendo tener [chocolatey]("https://chocolatey.org/install"), 
+Para instalar la mayor parte de los recursos, recomiendo tener [chocolatey](https://chocolatey.org/install), 
 gestor de paquetes muy cómodo para **Windows**, si tienes wget seguramente te sirva también.
 En **Linux**, ```sudo apt install ____```(Ubuntu, la equivalente para tu distro) suele poder con todo.
 
@@ -40,7 +40,7 @@ Ahora si:
 ### Node.js
 Tiene soporte para LSP de varios lenguajes, son los tíos de JavaScript.
 En el siguiente enlace vienen instalaciones para todos los OS, con distintos métodos si andamos esquisitos:
-[nodejs.org/download/package-manager]("https://nodejs.org/en/download/package-manager")
+[nodejs.org/download/package-manager](https://nodejs.org/en/download/package-manager)
 
 ### npm -> Node Pack Manager
 Varios LSP buscan esto para instalarse asi que aunque no utilices los mismos que yo, seguramente lo necesites
