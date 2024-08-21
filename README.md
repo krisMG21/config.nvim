@@ -33,7 +33,7 @@ quieres instalar estos recursos porque no los vas a usar, o instalar todo si qui
 
 Para instalar la mayor parte de los recursos, recomiendo tener [chocolatey](https://chocolatey.org/install), 
 gestor de paquetes muy cómodo para **Windows**, si tienes wget seguramente te sirva también.
-En **Linux**, ```sudo apt install ____```(Ubuntu, la equivalente para tu distro) suele poder con todo.
+En **Linux**, ```sudo apt install ____``` (Ubuntu, la equivalente para tu distro) suele poder con todo.
 
 Ahora si:
 
