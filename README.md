@@ -1,7 +1,7 @@
 # Configuracion simple pero potente nvim
 
 ## ANTES DE NADA
-Si es tu primera vez usando esta herramienta, o simplemente para acceder a la documentación de todo esto
+Si es tu primera vez usando Neovim, o simplemente para acceder a la documentación de todo esto
 (me he cargado bastantes comentarios), echa un vistazo al repositorio de la configuración inicial, de la
 que he ido construyendo la mía. Puedes probarla así tal cual y hacer tu la tuya, pero además tienes la mía
 como modelo de como podrías hacerla.
