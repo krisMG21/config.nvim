@@ -6,7 +6,7 @@ Si es tu primera vez usando esta herramienta, o simplemente para acceder a la do
 que he ido construyendo la mía. Puedes probarla así tal cual y hacer tu la tuya, pero además tienes la mía
 como modelo de como podrías hacerla.
 
-[Kicksart / kickstart.nvim]("https://github.com/nvim-lua/kickstart.nvim")
+[kickstart.nvim]("https://github.com/nvim-lua/kickstart.nvim")
 
 Contiene toda la información necesaria, tanto como para instalar Neovim, como aprender a usarlo, recomendable
 leerlo bien antes de usar el mío.
