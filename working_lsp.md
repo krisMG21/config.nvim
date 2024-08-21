@@ -7,4 +7,4 @@ C, C++, Rust, Lua, JavaScript, TypeScript
 
 C#, Python(ns que coño le pasa), SQL
 
-(LSP --> Language Server Provider --> Proveedores de servicio de lenguaje)
+(LSP -> Language Server Provider -> Proveedores de servicio de lenguaje)
