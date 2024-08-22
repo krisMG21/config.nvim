@@ -54,4 +54,4 @@ sólo esto vas tirando.
 ### ¿Qué es un LSP?
 Un LSP, o Language Server Provider, es un servidor que provee de autocompletado en tiempo real, con todas las funciones y variables al alcance, cada una con su correspondiente documentación.
 
-Para ver que LSP se encuentran implementados en la configuración en este momento, echa un vistazo a [LSP.md](https://github.com/krisMG21/config.nvim/LSP.md)
+Para ver que LSP se encuentran implementados en la configuración en este momento, echa un vistazo a [LSP.md](https://github.com/krisMG21/config.nvim/blob/master/LSP.md)
