@@ -16,7 +16,7 @@ leerlo bien antes de usar el mío.
 Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim),
 pensado para ser una plantilla de inicio para personalizar tu experiencia en nvim a tu gusto.
 
-Este repositorio en concreto es mi configuración actual, depende de lo que te interese puedes: 
+Este repositorio en concreto es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
 * Descargarlo y usarlo tal cual
 * Clonar el repositorio y usar lo que esté usando en cada momento
 * Hacer 'fork', y crear tu propio repositorio a partir de este
