@@ -1,10 +1,10 @@
-# LSP que funcionan 
+## LSP que funcionan 
 
 C, C++, Rust, Lua, JavaScript, TypeScript
 
-# LSP pendientes
+## LSP pendientes
 ### (Añadid lenguajes que os renten)
 
-C#, Python(ns que coño le pasa), SQL
+C#, Python, SQL
 
-(LSP -> Language Server Provider -> Proveedores de servicio de lenguaje)
+(c_sharpls y pyright me están dando bastantes problemas, si alguien lo soluciona acepto push encantado)
