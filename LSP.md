@@ -1,6 +1,6 @@
 ## LSP que funcionan 
 
-C, C++, Rust, Lua, JavaScript, TypeScript
+C, C++, Rust, Lua, JavaScript 
 
 ## LSP pendientes
 ### (Añadid lenguajes que os renten)
