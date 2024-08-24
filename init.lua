@@ -1,7 +1,6 @@
 require 'keymaps'
 require 'preferences'
 require 'autocoms'
-require 'code_folding'
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
@@ -41,6 +40,13 @@ require('lazy').setup({
 
   require 'plugins.mini',
   require 'plugins.nvim-treesitter', -- Highlight, edit, and navigate code
+
+  -- Code folding
+  require 'plugins.nvim-ufo',
+  -- { 'kevinhwang91/nvim-ufo', enable = false },
+  --
+  -- Welcome screen
+  require 'plugins.dashboard',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
