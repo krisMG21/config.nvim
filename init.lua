@@ -1,6 +1,7 @@
 require 'keymaps'
 require 'preferences'
 require 'autocoms'
+require 'code_folding'
 
 -- [[ Install `lazy.nvim` plugin manager ]]
 --    See `:help lazy.nvim.txt` or https://github.com/folke/lazy.nvim for more info
@@ -21,7 +22,7 @@ require('lazy').setup({
   'tpope/vim-sleuth', -- Detect tabstop and shiftwidth automatically
 
   -- Basic plugins
-  require 'plugins.gitsigns',  
+  require 'plugins.gitsigns',
   require 'plugins.which-key',
   require 'plugins.telescope',
 
