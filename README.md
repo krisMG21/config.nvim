@@ -17,9 +17,15 @@ Dahsboard bien bonita
 ![Captura de pantalla 2024-08-25 145516](https://github.com/user-attachments/assets/abf3e11d-d91f-45a7-905f-bc7968905ade)
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/dashboard.lua)
 
+
+
+
 LSP y autocompletado
 ![Captura de pantalla 2024-08-25 145641](https://github.com/user-attachments/assets/9e035851-ad84-4304-bbc4-05bc5e3158a0)
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/lsp)
+
+
+
 
 Árbol de archivos
 ![Captura de pantalla 2024-08-25 150705](https://github.com/user-attachments/assets/c789aeb1-2711-4fa4-9dff-bc7fb790fa34)
