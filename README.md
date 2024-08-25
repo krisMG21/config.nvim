@@ -1,4 +1,4 @@
- # Configuracion simple pero potente nvim
+# Configuracion simple pero potente nvim
 
 ## ANTES DE NADA
 Si es tu primera vez usando Neovim, o simplemente para acceder a la documentación de todo esto
@@ -31,10 +31,10 @@ LSP y autocompletado
 
 Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
-Este repositorio en concreto es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
+Este repositorio es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
 * Descargarlo y usarlo tal cual
-* Clonar el repositorio y usar lo que esté usando en cada momento
-* Hacer 'fork', y crear tu propio repositorio a partir de este
+* Clonar el repositorio y usar la configuración de forma sincronizada a la mía
+* Hacer 'fork' (o bifurcarlo), y crear tu propio repositorio a partir de este
 
 Aparte de los requerimientos que tenía el repositorio inicial, los cuales se encuentran [aquí](##Installation)
 las modificaciones que he ido haciendo requiren recursos adicionales, como algún gestor de paquetes para instalar 
