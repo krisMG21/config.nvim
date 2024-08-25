@@ -1,4 +1,4 @@
-# Configuracion simple pero potente nvim
+ # Configuracion simple pero potente nvim
 
 ## ANTES DE NADA
 Si es tu primera vez usando Neovim, o simplemente para acceder a la documentación de todo esto
@@ -13,8 +13,23 @@ leerlo bien antes de usar el mío.
 
 ## Introduccion
 
-Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim),
-pensado para ser una plantilla de inicio para personalizar tu experiencia en nvim a tu gusto.
+Dahsboard bien bonita
+![Captura de pantalla 2024-08-25 145516](https://github.com/user-attachments/assets/abf3e11d-d91f-45a7-905f-bc7968905ade)
+[Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/dashboard.lua)
+<br/><br/><br/><br/>
+
+LSP y autocompletado
+![Captura de pantalla 2024-08-25 145641](https://github.com/user-attachments/assets/9e035851-ad84-4304-bbc4-05bc5e3158a0)
+[Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/lsp)
+<br/><br/><br/><br/>
+
+Árbol de archivos
+![Captura de pantalla 2024-08-25 150705](https://github.com/user-attachments/assets/c789aeb1-2711-4fa4-9dff-bc7fb790fa34)
+[Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/kickstart/neo-tree.lua)
+<br/><br/><br/><br/>
+
+
+Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 Este repositorio en concreto es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
 * Descargarlo y usarlo tal cual
