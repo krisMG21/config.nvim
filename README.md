@@ -25,6 +25,9 @@ LSP y autocompletado
 ![Captura de pantalla 2024-08-25 150705](https://github.com/user-attachments/assets/c789aeb1-2711-4fa4-9dff-bc7fb790fa34)
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/kickstart/neo-tree.lua)
 
+
+
+
 Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
 Este repositorio en concreto es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
