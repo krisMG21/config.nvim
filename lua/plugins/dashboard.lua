@@ -3,7 +3,88 @@ return {
   event = 'VimEnter',
   config = function()
     require('dashboard').setup {
-      -- config
+      theme = 'doom',
+      config = {
+        header = {
+          
+	[[                                                                       ]],
+	[[                                                                     ]],
+	[[       ████ ██████           █████      ██                     ]],
+	[[      ███████████             █████                             ]],
+	[[      █████████ ███████████████████ ███   ███████████   ]],
+	[[     █████████  ███    █████████████ █████ ██████████████   ]],
+	[[    █████████ ██████████ █████████ █████ █████ ████ █████   ]],
+	[[  ███████████ ███    ███ █████████ █████ █████ ████ █████  ]],
+	[[ ██████  █████████████████████ ████ █████ █████ ████ ██████ ]],
+	[[                                                                       ]],
+  [[                                                                       ]],
+  [[                                                                       ]],
+                                                                         [[]],
+                                                                         [[]],
+                                                                         [[]],
+                                                                         [[]],                                                                                                                                              
+        }, --your header
+        center = {
+          {
+            icon = ' ',
+            icon_hl = 'Title',
+            desc = 'Search File          ',
+            desc_hl = 'Title',
+            key = ' ',
+            keymap = '<leader> s f  '  ,
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = '<leader>sf',
+          },
+          {
+            icon = ' ',
+            icon_hl = 'Title',
+            desc = 'Search Content          ',
+            desc_hl = 'Title',
+            key = ' ',
+            keymap = '<leader> s /  ',
+            key_format = ' %s', -- remove default surrounding `[]`
+          },
+          {
+            icon = ' ',
+            icon_hl = 'Title',
+            desc = 'Reveal File Tree          ',
+            desc_hl = 'Title',
+            key = 't',
+            keymap = 'Ctrl + N  ',
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = 'Neotree filesystem reveal left toggle<CR>'
+          },
+          {
+            icon =  ' ',
+            icon_hl = 'Title',
+            desc = 'Config Folder          ',
+            desc_hl = 'Title',
+            key = 'c',
+            keymap = '~/.config/nvim  ',
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = 'e ~/.config/nvim',
+          },
+          {
+            icon = ' ',
+            icon_hl = 'Title',
+            desc = 'Create New File          ',
+            desc_hl = 'Title',
+            key = 'n',
+            keymap = '',
+            key_format = ' %s', -- remove default surrounding `[]`
+            action = 'new',
+          },
+
+        },
+        footer = {
+          [[                                                                         ]],
+          [[                                                                         ]],
+          [[                                                                         ]],                                                                                                                                              
+          [[                                                                     ]],
+          [[██  󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰󱋰  ██ ]], 
+
+        }  --your footer
+      }
     }
   end,
   dependencies = { { 'nvim-tree/nvim-web-devicons' } },

@@ -42,7 +42,7 @@ require('lazy').setup({
   require 'plugins.nvim-treesitter', -- Highlight, edit, and navigate code
 
   -- Code folding
-  require 'plugins.nvim-ufo',
+  -- require 'plugins.nvim-ufo',
   -- { 'kevinhwang91/nvim-ufo', enable = false },
   --
   -- Welcome screen
