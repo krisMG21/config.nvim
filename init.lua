@@ -31,9 +31,7 @@ require('lazy').setup({
   require 'plugins.lsp.nvim-lspconfig',
   require 'plugins.lsp.conform',
   require 'plugins.lsp.nvim-cmp',
-
-  -- Colorscheme themes
-  require 'plugins.tokyonight',
+  -- require 'plugins.omnisharp',
 
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
@@ -44,7 +42,7 @@ require('lazy').setup({
   -- Code folding
   -- require 'plugins.nvim-ufo',
   -- { 'kevinhwang91/nvim-ufo', enable = false },
-  --
+
   -- Welcome screen
   require 'plugins.dashboard',
 
@@ -70,6 +68,7 @@ require('lazy').setup({
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
   -- For additional information, see `:help lazy.nvim-lazy.nvim-structuring-your-plugins`
   { import = 'plugins.misc' },
+  { import = 'colorschemes' },
 }, {
   ui = {
     -- If you are using a Nerd Font: set icons to an empty table which will use the
@@ -91,6 +90,13 @@ require('lazy').setup({
     },
   },
 })
+
+-- Choose here your preferred colorscheme
+-- This will set it automatically each time you open neovim
+
+-- If you want to test other installed colorscheme, do
+-- <leader>sf (leader -> space)
+vim.cmd 'colorscheme catppuccin-mocha'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
