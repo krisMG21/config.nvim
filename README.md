@@ -1,4 +1,4 @@
-# Configuracion simple pero potente nvim
+# Configuracion personal de Neovim
 
 ## ANTES DE NADA
 Si es tu primera vez usando Neovim, o simplemente para acceder a la documentación de todo esto
