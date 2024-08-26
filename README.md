@@ -28,6 +28,15 @@ LSP y autocompletado
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/kickstart/neo-tree.lua)
 <br/><br/><br/><br/>
 
+Búsqueda de archivos, keymaps, colorschemes, etc...
+![Captura de pantalla 2024-08-26 195205](https://github.com/user-attachments/assets/3754a8ad-cf8c-4afb-906f-c0b1046e4ea0)
+<br/><br/><br/><br/>
+
+Transparencia, preserva la imagen de fondo que tengas en la terminal
+![Captura de pantalla 2024-08-26 191119](https://github.com/user-attachments/assets/76d55583-0b83-4808-964d-10af87ac2328)
+![Captura de pantalla 2024-08-26 191739](https://github.com/user-attachments/assets/b4d57447-2d33-4605-b662-84b7400813f4)
+<br/><br/><br/><br/>
+
 
 Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
