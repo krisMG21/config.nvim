@@ -96,7 +96,7 @@ require('lazy').setup({
 
 -- If you want to test other installed colorscheme, do
 -- <leader>sf (leader -> space)
-vim.cmd 'colorscheme catppuccin-mocha'
+vim.cmd 'colorscheme tokyonight-night'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et
