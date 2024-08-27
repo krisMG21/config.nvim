@@ -32,7 +32,9 @@ require('lazy').setup({
   require 'plugins.lsp.conform',
   require 'plugins.lsp.nvim-cmp',
   -- require 'plugins.omnisharp',
+  --
 
+  --
   -- Highlight todo, notes, etc in comments
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
@@ -62,7 +64,7 @@ require('lazy').setup({
   require 'plugins.kickstart.neo-tree',
   require 'plugins.kickstart.gitsigns+', -- adds gitsigns recommend keymaps
 
-  -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
+  -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/plugins/misc/*.lua`
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
