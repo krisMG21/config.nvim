@@ -39,6 +39,9 @@ require('lazy').setup({
   { 'folke/todo-comments.nvim', event = 'VimEnter', dependencies = { 'nvim-lua/plenary.nvim' }, opts = { signs = false } },
 
   require 'plugins.mini',
+
+  { 'hiphish/rainbow-delimiters.nvim' },
+
   require 'plugins.nvim-treesitter', -- Highlight, edit, and navigate code
 
   -- Code folding
@@ -106,6 +109,8 @@ vim.cmd [[
   highlight Normal ctermbg=none
   highlight NonText ctermbg=none
 ]]
+
+require 'plugins/rainbow-delimiters'
 
 -- The line beneath this is called `modeline`. See `:help modeline`
 -- vim: ts=2 sts=2 sw=2 et

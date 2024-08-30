@@ -71,3 +71,10 @@ vim.opt.scrolloff = 10
 
 -- Code colapse
 vim.cmd 'set foldmethod=indent'
+--
+-- vim.opt.highlight = {
+--   {
+--     name = 'keymaps.import',
+--     guifg = '@keymaps',
+--   },
+-- }
