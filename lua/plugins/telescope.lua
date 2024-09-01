@@ -37,7 +37,19 @@ return { -- Fuzzy Finder (files, lsp, etc)
       pickers = {
         colorscheme = {
           enable_preview = true, -- <leader>sc to search and preview colorscheme
+          theme = 'dropdown',
         },
+
+        help_tags = { theme = 'dropdown' },
+        keymaps = { theme = 'dropdown' },
+        find_files = { theme = 'dropdown' },
+        builtin = { theme = 'dropdown' },
+        grep_string = { theme = 'dropdown' },
+        live_grep = { theme = 'dropdown' },
+        diagnostics = { theme = 'dropdown' },
+        resume = { theme = 'dropdown' },
+        oldfiles = { theme = 'dropdown' },
+        buffers = { theme = 'dropdown' },
       },
       extensions = {
         ['ui-select'] = {
@@ -68,6 +80,7 @@ return { -- Fuzzy Finder (files, lsp, etc)
     vim.keymap.set('n', '<leader>/', function()
       -- You can pass additional configuration to Telescope to change the theme, layout, etc.
       builtin.current_buffer_fuzzy_find(require('telescope.themes').get_dropdown {
+        colorscheme = { theme = 'dropdown' },
         winblend = 10,
         previewer = false,
       })
