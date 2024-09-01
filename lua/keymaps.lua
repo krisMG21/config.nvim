@@ -31,7 +31,6 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
-
 vim.g.maplocalleader = ' '
 
 vim.keymap.set('n', '<C-n>', ':Neotree filesystem reveal left toggle<CR>')
@@ -39,5 +38,9 @@ vim.keymap.set('n', '<leader>e', ':Neotree focus<CR>')
 vim.keymap.set('', '<C-s>', ':w<CR>')
 vim.keymap.set('', ',r', ':CellularAutomaton make_it_rain<CR>')
 vim.keymap.set('', ',g', ':CellularAutomaton game_of_life<CR>')
+
+-- Tabs keymaps
+vim.keymap.set('n', 'tk', ':bnext<CR>')
+vim.keymap.set('n', 'tj', ':bprev<CR>')
 
 print 'Custom keymaps loaded'
