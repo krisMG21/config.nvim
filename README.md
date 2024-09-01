@@ -74,6 +74,11 @@ sólo esto vas tirando.
 **Windows** ```choco install npm```
 **Linux** ```sudo apt install npm```
 
+### Nerd Font 
+Vamos a usar Neovim en una terminal, y la mayoría de plugins hacen uso de unos iconos fuera de la codificación normal, que unas fuentes especiales se encargan de abarcar -> [Nerd Fonts](https://nerdfonts.com)
+
+Para usar mi configuración, será necesario instalar una de ellas, la que más te guste ^^. En mi caso uso la 'Hack Nerd Font' 
+
 ## LSP
 ### ¿Qué es un LSP?
 Un LSP, o Language Server Provider, es un servidor que provee de autocompletado en tiempo real, con todas las funciones y variables al alcance, cada una con su correspondiente documentación.
