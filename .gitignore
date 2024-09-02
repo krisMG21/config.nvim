@@ -5,3 +5,4 @@ nvim
 
 spell/
 lazy-lock.json
+after/queries/rust/highlights.scm
