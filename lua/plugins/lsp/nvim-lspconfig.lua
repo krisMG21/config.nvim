@@ -153,7 +153,9 @@ return {
     local servers = {
       clangd = {},
       csharp_ls = {},
-      -- gopls = {},
+      cssls = {},
+      html = {},
+      prettier = {},
       ruff = {},
       ruff_lsp = {},
       rust_analyzer = {},
