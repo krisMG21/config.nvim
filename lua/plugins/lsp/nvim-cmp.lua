@@ -1,5 +1,4 @@
-return 
-{ -- Autocompletion
+return { -- Autocompletion
   'hrsh7th/nvim-cmp',
   event = 'InsertEnter',
   dependencies = {
@@ -110,7 +109,9 @@ return
         { name = 'nvim_lsp' },
         { name = 'luasnip' },
         { name = 'path' },
+        { name = 'supermaven' },
       },
     }
   end,
 }
+
