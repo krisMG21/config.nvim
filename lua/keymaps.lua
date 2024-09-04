@@ -43,4 +43,4 @@ vim.keymap.set('', ',g', ':CellularAutomaton game_of_life<CR>')
 vim.keymap.set('n', 'tk', ':bnext<CR>')
 vim.keymap.set('n', 'tj', ':bprev<CR>')
 
-print 'Custom keymaps loaded'
+-- print 'Custom keymaps loaded'
