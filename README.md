@@ -13,28 +13,39 @@ leerlo bien antes de usar el mío.
 
 ## Introduccion
 
-Dahsboard bien bonita
-![Captura de pantalla 2024-08-25 145516](https://github.com/user-attachments/assets/abf3e11d-d91f-45a7-905f-bc7968905ade)
+### Dahsboard bien bonita
+![Captura de pantalla 2024-08-25 145516](https://github.com/user-attachments/assets/63a8ca10-44f3-478d-b27b-f4e70ae95407)
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/dashboard.lua)
 <br/><br/><br/><br/>
 
-LSP y autocompletado
-![Captura de pantalla 2024-08-25 145641](https://github.com/user-attachments/assets/9e035851-ad84-4304-bbc4-05bc5e3158a0)
+### LSP y autocompletado
+![Captura de pantalla 2024-08-25 145641](https://github.com/user-attachments/assets/bfa1ada8-583f-40ce-86e5-971bc545d203)
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/lsp)
 <br/><br/><br/><br/>
 
-Árbol de archivos
-![Captura de pantalla 2024-08-25 150705](https://github.com/user-attachments/assets/c789aeb1-2711-4fa4-9dff-bc7fb790fa34)
+### Árbol de archivos
+![Captura de pantalla 2024-08-25 150705](https://github.com/user-attachments/assets/f48f11c9-21b3-4b0a-a8a9-063776081712)
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/kickstart/neo-tree.lua)
 <br/><br/><br/><br/>
 
-Búsqueda de archivos, keymaps, colorschemes, etc...
-![Captura de pantalla 2024-08-26 195205](https://github.com/user-attachments/assets/3754a8ad-cf8c-4afb-906f-c0b1046e4ea0)
+### Autocompletado y generación de código por IA
+Líneas:<br/>
+![Captura de pantalla 2024-09-06 004303](https://github.com/user-attachments/assets/7c481cae-4676-4174-9b60-7fbcac1f0c6f)
+
+Bloques de código:<br/>
+![Captura de pantalla 2024-09-06 004333](https://github.com/user-attachments/assets/29427f30-81b9-4536-b84a-55fbc19ad060)
+
+[Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/supermaven.lua)
 <br/><br/><br/><br/>
 
-Transparencia, preserva la imagen de fondo que tengas en la terminal
-![Captura de pantalla 2024-08-26 191119](https://github.com/user-attachments/assets/76d55583-0b83-4808-964d-10af87ac2328)
-![Captura de pantalla 2024-08-26 191739](https://github.com/user-attachments/assets/b4d57447-2d33-4605-b662-84b7400813f4)
+### Búsqueda de archivos, keymaps, colorschemes, etc...
+![Captura de pantalla 2024-08-26 195205](https://github.com/user-attachments/assets/62439dc3-9ef0-4817-921a-19377661d0db)
+[Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/telescope.lua)
+<br/><br/><br/><br/>
+
+### Transparencia, preserva la imagen de fondo que tengas en la terminal
+![Captura de pantalla 2024-08-26 191119](https://github.com/user-attachments/assets/1ebb4336-3292-4648-b4ff-4c69cb97cb79)
+![Captura de pantalla 2024-08-26 191739](https://github.com/user-attachments/assets/5d3e7054-c6d7-40f9-9537-4c7249e33bfe)
 <br/><br/><br/><br/>
 
 
@@ -42,8 +53,10 @@ Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim
 
 Este repositorio es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
 * Descargarlo y usarlo tal cual
-* Clonar el repositorio y usar la configuración de forma sincronizada a la mía
-* Hacer 'fork' (o bifurcarlo), y crear tu propio repositorio a partir de este
+* Clonar el repositorio y usar mi misma config con los cambios que vaya haciendo
+* Hacer 'fork' o descargarlo directamente, y modificarlo a tu gusto
+
+(Si a alguien le apetece colaborar en este repo, se pueden abrir ramas y atender pull request, así como issues, dudas, etc)
 
 Aparte de los requerimientos que tenía el repositorio inicial, los cuales se encuentran [aquí](##Installation)
 las modificaciones que he ido haciendo requiren recursos adicionales, como algún gestor de paquetes para instalar 
