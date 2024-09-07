@@ -74,6 +74,11 @@ En **Linux**, ```sudo apt install ____``` (Ubuntu, la equivalente para tu distro
 
 Ahora si:
 
+### Nerd Font 
+Vamos a usar Neovim en una terminal, y la mayoría de plugins hacen uso de unos iconos fuera de la codificación normal, que unas fuentes especiales se encargan de abarcar -> [Nerd Fonts](https://nerdfonts.com)
+
+Para usar mi configuración, será necesario instalar una de ellas, la que más te guste ^^. En mi caso uso la 'Hack Nerd Font' 
+
 ### Node.js
 Tiene soporte para LSP de varios lenguajes, son los tíos de JavaScript.
 En el siguiente enlace vienen instalaciones para todos los OS, con distintos métodos si andamos esquisitos:
@@ -87,10 +92,12 @@ sólo esto vas tirando.
 **Windows** ```choco install npm```
 **Linux** ```sudo apt install npm```
 
-### Nerd Font 
-Vamos a usar Neovim en una terminal, y la mayoría de plugins hacen uso de unos iconos fuera de la codificación normal, que unas fuentes especiales se encargan de abarcar -> [Nerd Fonts](https://nerdfonts.com)
+### Otras instalaciones
+Voy a ir apuntando aquí herramientas o comandos de instalación para cosas bien concretas, por si te interesa tenerlas también
 
-Para usar mi configuración, será necesario instalar una de ellas, la que más te guste ^^. En mi caso uso la 'Hack Nerd Font' 
+- Access python3 through nvim command line (:)   ```python3 -m pip install --user --upgrade pynvim```
+
+
 
 ## LSP
 ### ¿Qué es un LSP?
