@@ -154,6 +154,7 @@ return {
       clangd = {},
       csharp_ls = {},
       cssls = {},
+      emmet_language_server = {},
       html = {},
       prettier = {},
       ruff = {},
