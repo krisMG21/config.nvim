@@ -31,7 +31,7 @@ return { -- Autocompletion
     -- Adds other completion capabilities.
     --  nvim-cmp does not ship with all sources by default. They are split
     --  into multiple repos for maintenance purposes.
-    'hrsh7th/cmp-nvim-lsp',
+    'hrsh7th/cmp-buffer',
     'hrsh7th/cmp-path',
   },
   config = function()
@@ -107,7 +107,9 @@ return { -- Autocompletion
           group_index = 0,
         },
         { name = 'nvim_lsp' },
+        { name = 'nvim_lsp_signature_help' },
         { name = 'luasnip' },
+        { name = 'buffer' },
         { name = 'path' },
         -- { name = 'supermaven' }, -- Duplicated suggestion, still suggests after <tab>ing the code suggestion
       },

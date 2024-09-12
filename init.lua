@@ -57,6 +57,8 @@ require('lazy').setup({
   -- Emmet language server, for quick shorthands in HTML and CSS
   require 'plugins.nvim-emmet',
 
+  require 'plugins.lsp.typescript-tools',
+
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
   -- place them in the correct locations.

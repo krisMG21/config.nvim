@@ -151,17 +151,32 @@ return {
     --  - settings (table): Override the default settings passed when initializing the server.
     --        For example, to see the options for `lua_ls`, you could go to: https://luals.github.io/wiki/settings/
     local servers = {
-      clangd = {},
-      csharp_ls = {},
-      cssls = {},
-      emmet_language_server = {},
-      html = {},
-      prettier = {},
-      ruff = {},
-      ruff_lsp = {},
-      rust_analyzer = {},
-      tsserver = {},
-      sqlfluff = {},
+      clangd = {}, -- C/C++
+      csharp_ls = {}, -- C#
+      cssls = {
+        settings = {
+          css = {
+            validate = true,
+            lint = {
+              compatibleVendorPrefixes = 'ignore',
+            },
+          },
+        },
+        capabilities = capabilities,
+      },
+      emmet_language_server = {}, -- HTML
+      eslint = {}, -- JavaScript
+      jsonls = {}, -- JSON
+      html = {
+        capabilities = capabilities,
+      }, -- HTML
+      prettier = {}, -- JavaScript, CSS, HTML, etc.
+      ruff = {}, -- Python
+      ruff_lsp = {}, -- Python
+      rust_analyzer = {}, -- Rust
+      tailwindcss = {}, -- CSS
+      ts_ls = {}, -- TypeScript
+      sqlfluff = {}, -- SQL
       -- ... etc. See `:help lspconfig-all` for a list of all the pre-configured LSPs
       --
       -- Some languages (like typescript) have entire language plugins that can be useful:
@@ -201,12 +216,13 @@ return {
     vim.list_extend(ensure_installed, {
       'stylua', -- Used to format Lua code
       'pyright', -- Python LSP
-      'rust_analyzer',
-      'sqlfluff',
-      'clangd',
-      'clang-format',
-      'csharp_ls',
-      'tsserver',
+      'rust_analyzer', -- Rust LSP
+      'sqlfluff', -- SQL LSP
+      'clangd', -- C/C++ LSP
+      'clang-format', -- C/C++ format
+      'csharp_ls', -- C# LSP
+      'ts_ls', -- TypeScript LSP
+      'jsonls', -- JSON LSP
     })
     require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
