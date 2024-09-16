@@ -111,6 +111,8 @@ return { -- Autocompletion
         { name = 'luasnip' },
         { name = 'buffer' },
         { name = 'path' },
+        { name = 'treesitter' },
+        { name = 'typescript' },
         -- { name = 'supermaven' }, -- Duplicated suggestion, still suggests after <tab>ing the code suggestion
       },
     }

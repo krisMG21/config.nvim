@@ -1,7 +1,8 @@
--- vim.cmd 'set notabexpand'
-vim.cmd 'set tabstop=4'
-vim.cmd 'set shiftwidth=4'
-vim.cmd 'set nofoldenable'
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.opt.expandtab = true
+vim.opt.softtabstop = 4
+vim.opt.foldenable = false
 
 -- Set <space> as the leader key
 -- See `:help mapleader`
