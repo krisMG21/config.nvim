@@ -13,6 +13,25 @@ leerlo bien antes de usar el mío.
 
 ## Introduccion
 
+Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
+
+Este repositorio es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
+* Descargarlo y usarlo tal cual
+* Clonar el repositorio y usar mi misma config con los cambios que vaya haciendo
+* Hacer 'fork' o descargarlo directamente, y modificarlo a tu gusto
+
+(Si a alguien le apetece colaborar en este repo, se pueden abrir ramas y atender pull request, así como issues, dudas, etc)
+
+Aparte de los requerimientos que tenía el repositorio inicial, los cuales se encuentran [aquí](##Installation)
+las modificaciones que he ido haciendo requiren recursos adicionales, como algún gestor de paquetes para instalar 
+ciertos LSP (lo que te da sugerencias y analiza tu codigo en tiempo real vaya).
+
+Con respecto a esto, puedes hacer 'fork' del repositorio , comentar lo que el codigo dice que comentes si no 
+quieres instalar estos recursos porque no los vas a usar, o instalar todo si quieres usar mi versión exacta
+(Lo mantendré actualizado dw)
+
+## Features: 
+
 ### Dahsboard bien bonita
 ![Captura de pantalla 2024-08-25 145516](https://github.com/user-attachments/assets/63a8ca10-44f3-478d-b27b-f4e70ae95407)
 [Configuración](https://github.com/krisMG21/config.nvim/blob/master/lua/plugins/dashboard.lua)
@@ -47,24 +66,6 @@ Bloques de código:<br/>
 ![Captura de pantalla 2024-08-26 191119](https://github.com/user-attachments/assets/1ebb4336-3292-4648-b4ff-4c69cb97cb79)
 ![Captura de pantalla 2024-08-26 191739](https://github.com/user-attachments/assets/5d3e7054-c6d7-40f9-9537-4c7249e33bfe)
 <br/><br/><br/><br/>
-
-
-Configurado a partir del repositorio de [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
-
-Este repositorio es mi configuración actual que uso en [WSL](https://www.arsys.es/blog/wsl-windows-subsystem-linux#:~:text=WSL%20corresponde%20con%20las%20siglas,familia%20GNU%2FLinux%20en%20Windows.), depende de lo que te interese puedes: 
-* Descargarlo y usarlo tal cual
-* Clonar el repositorio y usar mi misma config con los cambios que vaya haciendo
-* Hacer 'fork' o descargarlo directamente, y modificarlo a tu gusto
-
-(Si a alguien le apetece colaborar en este repo, se pueden abrir ramas y atender pull request, así como issues, dudas, etc)
-
-Aparte de los requerimientos que tenía el repositorio inicial, los cuales se encuentran [aquí](##Installation)
-las modificaciones que he ido haciendo requiren recursos adicionales, como algún gestor de paquetes para instalar 
-ciertos LSP (lo que te da sugerencias y analiza tu codigo en tiempo real vaya).
-
-Con respecto a esto, puedes hacer 'fork' del repositorio , comentar lo que el codigo dice que comentes si no 
-quieres instalar estos recursos porque no los vas a usar, o instalar todo si quieres usar mi versión exacta
-(Lo mantendré actualizado dw)
 
 ## Recursos adicionales
 
