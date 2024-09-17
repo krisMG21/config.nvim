@@ -31,6 +31,7 @@ require('lazy').setup({
   require 'plugins.lsp.nvim-lspconfig',
   require 'plugins.lsp.conform',
   require 'plugins.lsp.nvim-cmp',
+  require 'plugins.lsp.typescript-tools',
   -- require 'plugins.omnisharp',
   --
 
@@ -57,7 +58,8 @@ require('lazy').setup({
   -- Emmet language server, for quick shorthands in HTML and CSS
   require 'plugins.nvim-emmet',
 
-  require 'plugins.lsp.typescript-tools',
+  -- MARKDOWN BUT PRETTY AAAA
+  require 'plugins.render-markdown',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
