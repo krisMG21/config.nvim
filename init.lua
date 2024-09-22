@@ -113,12 +113,13 @@ require('lazy').setup({
 -- <leader>sf (leader -> space)
 vim.cmd 'colorscheme tokyonight-night'
 
--- vim.cmd [[ -- Uncomment this if you want to disable the background color
---   highlight Normal guibg=none
---   highlight NonText guibg=none
---   highlight Normal ctermbg=none
---   highlight NonText ctermbg=none
--- ]]
+-- This enables background transparency
+vim.cmd [[
+  highlight Normal guibg=none
+  highlight NonText guibg=none
+  highlight Normal ctermbg=none
+  highlight NonText ctermbg=none
+]]
 
 require 'plugins/rainbow-delimiters'
 

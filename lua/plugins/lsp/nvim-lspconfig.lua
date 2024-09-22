@@ -215,7 +215,8 @@ return {
     local ensure_installed = vim.tbl_keys(servers or {})
     vim.list_extend(ensure_installed, {
       'stylua', -- Used to format Lua code
-      'pyright', -- Python LSP
+      'ruff', -- Python formatter
+      'ruff_lsp', -- Python LSP
       'rust_analyzer', -- Rust LSP
       'sqlfluff', -- SQL LSP
       'clangd', -- C/C++ LSP
