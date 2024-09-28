@@ -72,6 +72,10 @@ vim.opt.scrolloff = 10
 
 -- Code colapse
 vim.cmd 'set foldmethod=indent'
+
+vim.opt.colorcolumn = '80'
+vim.cmd 'hi ColorColumn ctermbg=None guibg=#212132'
+
 --
 -- vim.opt.highlight = {
 --   {
