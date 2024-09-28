@@ -1,5 +1,23 @@
 # Configuracion personal de Neovim
 
+- [ANTES DE NADA](#antes-de-nada)
+- [Introduccion](#introduccion)
+- [Features](#features)
+  - [Dahsboard bien bonita](#dahsboard-bien-bonita)
+  - [LSP y autocompletado](#lsp-y-autocompletado)
+  - [Árbol de archivos](#árbol-de-archivos)
+  - [Autocompletado y generación de código por IA](#autocompletado-y-generación-de-código-por-ia)
+  - [Búsqueda de archivos, keymaps, colorschemes, etc...](#búsqueda-de-archivos-keymaps-colorschemes-etc)
+  - [Transparencia, preserva la imagen de fondo que tengas en la terminal](#transparencia-preserva-la-imagen-de-fondo-que-tengas-en-la-terminal)
+- [Recursos adicionales](#recursos-adicionales)
+  - [Nerd Font](#nerd-font)
+  - [Node.js](#nodejs)
+  - [npm -> Node Pack Manager](#npm---node-pack-manager)
+  - [Otras instalaciones](#otras-instalaciones)
+- [LSP](#lsp)
+  - [¿Qué es un LSP?](#qué-es-un-lsp)
+
+
 ## ANTES DE NADA
 Si es tu primera vez usando Neovim, o simplemente para acceder a la documentación de todo esto
 (me he cargado bastantes comentarios), echa un vistazo al repositorio de la configuración inicial, de la
@@ -30,7 +48,7 @@ Con respecto a esto, puedes hacer 'fork' del repositorio , comentar lo que el co
 quieres instalar estos recursos porque no los vas a usar, o instalar todo si quieres usar mi versión exacta
 (Lo mantendré actualizado dw)
 
-## Features: 
+## Features
 
 ### Dahsboard bien bonita
 ![Captura de pantalla 2024-08-25 145516](https://github.com/user-attachments/assets/63a8ca10-44f3-478d-b27b-f4e70ae95407)
