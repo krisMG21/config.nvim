@@ -69,14 +69,19 @@ Contiene información esencial sobre la instalación y uso básico de Neovim.
 
 ### Requisitos
 
+Aparte de los [requerimientos](https://github.com/nvim-lua/kickstart.nvim?tab=readme-ov-file#install-external-dependencies)
+que pide kickstart.nvim, necesitas:
+
 1. **Nerd Font**: Necesaria para los iconos. Recomiendo [Hack Nerd Font](https://www.nerdfonts.com/).
 
-2. **Terminal compatible** tanto para las NerdFonts como los backgrounds de la terminal (y por ende neovim). Recomiendo las siguientes:
-  * [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
-  * [iTerm](https://iterm2.com/) (Para MacOS)
-  * [Alacritty](https://alacritty.org/)
-  * [Kitty](https://sw.kovidgoyal.net/kitty/)
-  * [WezTerm](https://wezfurlong.org/wezterm/index.html)
+2. **Terminal compatible** tanto para las NerdFonts como los backgrounds de la terminal
+(y por ende neovim). Recomiendo las siguientes:
+
+- [Windows Terminal](https://learn.microsoft.com/en-us/windows/terminal/install)
+- [iTerm](https://iterm2.com/) (Para MacOS)
+- [Alacritty](https://alacritty.org/)
+- [Kitty](https://sw.kovidgoyal.net/kitty/)
+- [WezTerm](https://wezfurlong.org/wezterm/index.html)
 
 Para configurar la Windows Terminal, no tienes más que dar click derecho
 en la barra de ventanas y abrir la configuración.
@@ -86,7 +91,8 @@ defecto como por cada soporte de terminal (Powershell, CMD, Ubuntu),
 podrás elegir la fuente (NerdFont que hayas instalado) y la imagen de
 fondo.
 
-Para el resto, el siguiente [video](https://www.youtube.com/watch?v=mQdB_kHyZn8) debería servir de explicación.
+Para el resto, el siguiente [video](https://www.youtube.com/watch?v=mQdB_kHyZn8)
+debería servir de explicación.
 
 3. **Node.js**: Instala desde [nodejs.org](https://nodejs.org/en/download/package-manager).
 
