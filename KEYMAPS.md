@@ -65,6 +65,8 @@ El resto tal cual se escriban.
 | `0` | Ir al inicio de la línea |
 | `^` | Ir al primer carácter no blanco de la línea |
 | `$` | Ir al final de la línea |
+| `gt` | Ir al siguiente tab |
+| `gT` | Ir al tab anterior |
 
 ## Edición
 
@@ -130,6 +132,7 @@ El resto tal cual se escriban.
 | `<C-W>k` | Mover al panel superior |
 | `<C-W>l` | Mover al panel derecho |
 | `<C-W>x` | Intercambiar posición con el siguiente panel |
+| `<C-W>T` | Mandar ventana a nuevo tab |
 | `<C-W>=` | Hacer todos los paneles de igual tamaño |
 | `<C-W>_` | Hacer todos los paneles de igual altura |
 | `<C-W>\|` | Hacer todos los paneles de igual ancho* |
