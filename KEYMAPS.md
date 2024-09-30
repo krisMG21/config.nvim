@@ -115,6 +115,31 @@ El resto tal cual se escriban.
 | `V` | Entrar en modo visual de línea |
 | `<C-v>` | Entrar en modo visual de bloque |
 
+## Ventanas
+
+| Key | Action |
+| --- | --- |
+| `<C-W>s` | Dividir ventana horizontalmente |
+| `<C-W>v` | Dividir ventana verticalmente |
+| `<C-W>q` | Cerrar ventana actual |
+| `<C-W>o` | Cerrar todas las ventanas excepto la actual |
+| `<C-W>w` | Mover al siguiente panel |
+| `<C-W>p` | Mover al panel previo |
+| `<C-W>h` | Mover al panel izquierdo |
+| `<C-W>j` | Mover al panel inferior |
+| `<C-W>k` | Mover al panel superior |
+| `<C-W>l` | Mover al panel derecho |
+| `<C-W>x` | Intercambiar posición con el siguiente panel |
+| `<C-W>=` | Hacer todos los paneles de igual tamaño |
+| `<C-W>_` | Hacer todos los paneles de igual altura |
+| `<C-W>\|` | Hacer todos los paneles de igual ancho* |
+| `<C-W>-` | Disminuir altura del panel actual |
+| `<C-W>+` | Aumentar altura del panel actual |
+| `<C-W><` | Disminuir ancho del panel actual |
+| `<C-W>>` | Aumentar ancho del panel actua |
+
+*se usa un \ para que no se joda el formato de la tabla, no usar en la práctica
+
 ## Combos
 
 A algunos keymaps es muy común añadir los siguientes wombo combos para aplicarlos
