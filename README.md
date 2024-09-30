@@ -9,6 +9,7 @@
   - [Gestores de Paquetes Recomendados](#gestores-de-paquetes-recomendados)
   - [Requisitos](#requisitos)
 - [Servidores de Lenguaje (LSP)](#servidores-de-lenguaje-lsp)
+- [Keymaps](#keymaps)
 
 ## Introducción
 
@@ -111,6 +112,18 @@ python3 -m pip install --user --upgrade pynvim
 
 Los LSP proporcionan autocompletado en tiempo real y análisis de código.
 Para ver la lista de LSP implementados, consulta [LSP.md](https://github.com/krisMG21/config.nvim/blob/master/LSP.md).
+
+## Keymaps
+
+Los keymaps en Neovim son una especie de atajos de teclado muy cómodos y rápidos,
+que te permiten interactuar con el editor y ejecutar comandos en un abrir y cerrar
+de ojos.
+
+A diferencia de los atajos de teclado tradicionales, los keymaps en Neovim no
+necesitan que pulses todas las teclas implicadas al mismo tiempo, sino que se escriben
+una detrás de otra, haciéndose más cómodo y pudiendo combinar muchas más.
+
+Para ver la lista de keymaps, consulta [KEYMAPS.md](https://github.com/krisMG21/config.nvim/blob/master/KEYMAPS.md).
 
 ---
 
