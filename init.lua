@@ -111,7 +111,7 @@ require('lazy').setup({
 
 -- If you want to test other installed colorscheme, do
 -- <leader>sf (leader -> space)
-vim.cmd 'colorscheme tokyonight-storm'
+vim.cmd 'colorscheme tokyonight-night'
 
 -- This enables background transparency
 vim.cmd [[

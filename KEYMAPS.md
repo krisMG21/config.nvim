@@ -25,6 +25,7 @@ los creados para los plugins.
 - [Pegar](#pegar)
 - [Búsqueda](#búsqueda)
 - [Modo Visual](#modo-visual)
+- [Ventanas](#ventanas)
 - [Combos](#combos)
 
 ### Plugins
