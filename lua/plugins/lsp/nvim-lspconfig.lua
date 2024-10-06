@@ -171,8 +171,8 @@ return {
         capabilities = capabilities,
       }, -- HTML
       prettier = {}, -- JavaScript, CSS, HTML, etc.
+      pyright = {}, -- Python
       ruff = {}, -- Python
-      ruff_lsp = {}, -- Python
       rust_analyzer = {}, -- Rust
       tailwindcss = {}, -- CSS
       ts_ls = {}, -- TypeScript
@@ -216,7 +216,7 @@ return {
     vim.list_extend(ensure_installed, {
       'stylua', -- Used to format Lua code
       'ruff', -- Python formatter
-      'ruff_lsp', -- Python LSP
+      'pyright', -- Python LSP
       'rust_analyzer', -- Rust LSP
       'sqlfluff', -- SQL LSP
       'clangd', -- C/C++ LSP

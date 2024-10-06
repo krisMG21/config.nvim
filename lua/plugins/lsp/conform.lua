@@ -27,7 +27,7 @@ return { -- Autoformat
     formatters_by_ft = {
       lua = { 'stylua' },
       javascript = { 'biome ' },
-      python = { 'ruff' },
+      python = { 'pyright' },
 
       -- Conform can also run multiple formatters sequentially
       -- python = { 'isort', 'black' },
@@ -37,4 +37,3 @@ return { -- Autoformat
     },
   },
 }
-
