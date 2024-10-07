@@ -39,6 +39,13 @@ vim.keymap.set('', '<C-s>', ':w<CR>')
 vim.keymap.set('', ',r', ':CellularAutomaton make_it_rain<CR>')
 vim.keymap.set('', ',g', ':CellularAutomaton game_of_life<CR>')
 
+-- Move line/block up/down
+local moveline = require 'moveline'
+vim.keymap.set('n', '<M-k>', moveline.up)
+vim.keymap.set('n', '<M-j>', moveline.down)
+vim.keymap.set('v', '<M-k>', moveline.block_up)
+vim.keymap.set('v', '<M-j>', moveline.block_down)
+
 -- Tabs keymaps
 vim.keymap.set('n', 'tk', ':bnext<CR>')
 vim.keymap.set('n', 'tj', ':bprev<CR>')

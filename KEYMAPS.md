@@ -19,12 +19,12 @@ los creados para los plugins.
 
 - [Movimiento](#movimiento)
 - [Navegación](#navegación)
-- [Edición](#edición)
+- [Modo inserción](#modo-inserción)
+- [Modo Visual](#modo-visual)
 - [Borrado](#borrado)
 - [Yanking (Copiar)](#yanking-copiar)
 - [Pegar](#pegar)
 - [Búsqueda](#búsqueda)
-- [Modo Visual](#modo-visual)
 - [Ventanas](#ventanas)
 - [Combos](#combos)
 
@@ -32,6 +32,7 @@ los creados para los plugins.
 
 - [Neo-tree](#neo-tree)
 - [Telescope](#telescope)
+- [Moveline](#moveline)
 
 ## Quick notes
 
@@ -69,7 +70,7 @@ El resto tal cual se escriban.
 | `gt` | Ir al siguiente tab |
 | `gT` | Ir al tab anterior |
 
-## Edición
+## Modo inserción
 
 | Key | Action |
 | --- | --- |
@@ -77,6 +78,14 @@ El resto tal cual se escriban.
 | `a` | Entrar en modo inserción después del cursor |
 | `o` | Insertar nueva línea debajo y entrar en modo inserción |
 | `O` | Insertar nueva línea arriba y entrar en modo inserción |
+
+## Modo Visual
+
+| Key | Action |
+| --- | --- |
+| `v` | Entrar en modo visual (selección de caracteres) |
+| `V` | Entrar en modo visual de línea |
+| `<C-v>` | Entrar en modo visual de bloque |
 
 ## Borrado
 
@@ -110,37 +119,29 @@ El resto tal cual se escriban.
 | `n` | Ir a la siguiente ocurrencia de la búsqueda |
 | `N` | Ir a la ocurrencia anterior de la búsqueda |
 
-## Modo Visual
-
-| Key | Action |
-| --- | --- |
-| `v` | Entrar en modo visual (selección de caracteres) |
-| `V` | Entrar en modo visual de línea |
-| `<C-v>` | Entrar en modo visual de bloque |
-
 ## Ventanas
 
-| Key | Action |
-| --- | --- |
-| `<C-W>s` | Dividir ventana horizontalmente |
-| `<C-W>v` | Dividir ventana verticalmente |
-| `<C-W>q` | Cerrar ventana actual |
-| `<C-W>o` | Cerrar todas las ventanas excepto la actual |
-| `<C-W>w` | Mover al siguiente panel |
-| `<C-W>p` | Mover al panel previo |
-| `<C-W>h` | Mover al panel izquierdo |
-| `<C-W>j` | Mover al panel inferior |
-| `<C-W>k` | Mover al panel superior |
-| `<C-W>l` | Mover al panel derecho |
-| `<C-W>x` | Intercambiar posición con el siguiente panel |
-| `<C-W>T` | Mandar ventana a nuevo tab |
-| `<C-W>=` | Hacer todos los paneles de igual tamaño |
-| `<C-W>_` | Hacer todos los paneles de igual altura |
-| `<C-W>\|` | Hacer todos los paneles de igual ancho* |
-| `<C-W>-` | Disminuir altura del panel actual |
-| `<C-W>+` | Aumentar altura del panel actual |
-| `<C-W><` | Disminuir ancho del panel actual |
-| `<C-W>>` | Aumentar ancho del panel actua |
+| Mode | Key | Action |
+| --- | --- | --- |
+| NV | `<C-W>s` | Dividir ventana horizontalmente |
+| NV | `<C-W>v` | Dividir ventana verticalmente |
+| NV | `<C-W>q` | Cerrar ventana actual |
+| NV | `<C-W>o` | Cerrar todas las ventanas excepto la actual |
+| NV | `<C-W>w` | Mover al siguiente panel |
+| NV | `<C-W>p` | Mover al panel previo |
+| NV | `<C-W>h` | Mover al panel izquierdo |
+| NV | `<C-W>j` | Mover al panel inferior |
+| NV | `<C-W>k` | Mover al panel superior |
+| NV | `<C-W>l` | Mover al panel derecho |
+| NV | `<C-W>x` | Intercambiar posición con el siguiente panel |
+| NV | `<C-W>T` | Mandar ventana a nuevo tab |
+| NV | `<C-W>=` | Hacer todos los paneles de igual tamaño |
+| NV | `<C-W>_` | Hacer todos los paneles de igual altura |
+| NV | `<C-W>\|` | Hacer todos los paneles de igual ancho* |
+| NV | `<C-W>-` | Disminuir altura del panel actual |
+| NV | `<C-W>+` | Aumentar altura del panel actual |
+| NV | `<C-W><` | Disminuir ancho del panel actual |
+| NV | `<C-W>>` | Aumentar ancho del panel actual |
 
 *se usa un \ para que no se joda el formato de la tabla, no usar en la práctica
 
@@ -173,25 +174,25 @@ las combinaciones a partir de la actual, ¡no tengas miedo de probar!
 
 Neotree es el plugin que se encarga de mostrar el árbol de directorios.
 
-| Key | Action |
-| --- | --- |
-|`\`| Toggle file tree |
-|`<C-N>`| Toggle file tree|
+| Mode | Key | Action |
+| --- | --- | --- |
+| Normal | `\` | Toggle file tree |
+| Normal | `<C-N>` | Toggle file tree|
 
 Dentro de la ventana que muestra, puedes moverte con hjkl y utilizar las
 siguientes funcionalidades:
 
-| Key | Action |
-| --- | --- |
-|`<CR>`| Abrir archivo |
-|`a` | Agregar archivo |
-|`c` | Copiar archivo |
-|`d` | Borrar archivo |
-|`m` | Mover archivo |
-|`p` | Pegar archivo |
-|`r` | Renombrar archivo |
-|`y` | Copiar nombre del archivo |
-|`x` | Cortar archivo |
+|Mode | Key | Action |
+| --- | --- | --- |
+| Normal | `<CR>` | Abrir archivo |
+| Normal | `a` | Agregar archivo |
+| Normal | `c` | Copiar archivo |
+| Normal | `d` | Borrar archivo |
+| Normal | `m` | Mover archivo |
+| Normal | `p` | Pegar archivo |
+| Normal | `r` | Renombrar archivo |
+| Normal | `y` | Copiar nombre del archivo |
+| Normal | `x` | Cortar archivo |
 
 Sirven así mismo para directorios, solo que al nombrarlos deberás añadir un `/`
 al final para interpretarlos como tales.
@@ -203,18 +204,27 @@ Telescope es uno de los mejores plugins de la configuración, fuzzy-finder para
 archivos dentro del directorio actual y subdirectorios, palabras dentro de archivos,
 pero también colorschemes, keymaps, etc.
 
-| Key | Action |
-| --- | --- |
-| `<leader>sc` | Buscar y previsualizar un colorscheme |
-| `<leader>sd` | Buscar diagnosticos |
-| `<leader>sf` | Buscar rchivos |
-| `<leader>sg` | Buscar (texto) en el buffer actual |
-| `<leader>sh` | Buscar ayuda |
-| `<leader>sk` | Buscar keymaps |
-| `<leader>sn` | Buscar archivos de Neovim |
-| `<leader>ss` | Buscar funciones de Telescope |
-| `<leader>sw` | Buscar repeticiones de la palabra actual |
-| `<leader>sr` | Reanuda la última búsqueda |
-| `<leader>s/` | Buscar en los archivos abiertos |
-| `<leader>s.` | Buscar archivos recientes |
-| `<leader><leader>` | Buscar buffers existentes |
+| Mode | Key | Action |
+| --- | --- | --- |
+| Normal | `<leader>sc` | Buscar y previsualizar un colorscheme |
+| Normal | `<leader>sd` | Buscar diagnosticos |
+| Normal | `<leader>sf` | Buscar rchivos |
+| Normal | `<leader>sg` | Buscar (texto) en el buffer actual |
+| Normal | `<leader>sh` | Buscar ayuda |
+| Normal | `<leader>sk` | Buscar keymaps |
+| Normal | `<leader>sn` | Buscar archivos de Neovim |
+| Normal | `<leader>ss` | Buscar funciones de Telescope |
+| Normal | `<leader>sw` | Buscar repeticiones de la palabra actual |
+| Normal | `<leader>sr` | Reanuda la última búsqueda |
+| Normal | `<leader>s/` | Buscar en los archivos abiertos |
+| Normal | `<leader>s.` | Buscar archivos recientes |
+| Normal | `<leader><leader>` | Buscar buffers existentes |
+
+## Moveline
+
+|Mode | Key | Action |
+| --- | --- | --- |
+| Normal | `<M-k>` | Mover línea hacia arriba |
+| Normal | `<M-j>` | Mover línea hacia abajo |
+| Visual | `<M-k>` | Mover bloque hacia arriba |
+| Visual | `<M-j>` | Mover bloque hacia abajo |

@@ -1,4 +1,3 @@
-require 'keymaps'
 require 'preferences'
 require 'autocoms'
 
@@ -32,8 +31,6 @@ require('lazy').setup({
   require 'plugins.lsp.conform',
   require 'plugins.lsp.nvim-cmp',
   require 'plugins.lsp.typescript-tools',
-  -- require 'plugins.omnisharp',
-  --
 
   --
   -- Highlight todo, notes, etc in comments
@@ -60,6 +57,9 @@ require('lazy').setup({
 
   -- MARKDOWN BUT PRETTY AAAA
   require 'plugins.render-markdown',
+
+  -- enables line/block moving through code
+  require 'plugins.moveline',
 
   -- The following two comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
@@ -123,5 +123,4 @@ vim.cmd [[
 
 require 'plugins/rainbow-delimiters'
 
--- The line beneath this is called `modeline`. See `:help modeline`
--- vim: ts=2 sts=2 sw=2 et
+require 'keymaps'
