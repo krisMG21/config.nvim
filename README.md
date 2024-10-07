@@ -102,10 +102,12 @@ debería servir de explicación.
    - Windows: `choco install npm`
    - Linux: `sudo apt install npm`
 
-5. **Pynvim** (para acceso a Python3):
-
+5. **Pynvim y env** (para acceso a Python3):
+(si no está instalado)
 ```bash
+sudo apt install -y python3-pip
 python3 -m pip install --user --upgrade pynvim
+sudo apt install -y python3-venv
 ```
 
 ## Servidores de Lenguaje (LSP)
