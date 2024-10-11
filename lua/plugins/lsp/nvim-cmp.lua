@@ -113,6 +113,7 @@ return { -- Autocompletion
         { name = 'path' },
         { name = 'treesitter' },
         { name = 'typescript' },
+        { name = 'rust-analyzer' },
         -- { name = 'supermaven' }, -- Duplicated suggestion, still suggests after <tab>ing the code suggestion
       },
     }
