@@ -24,6 +24,9 @@ Opciones de uso:
 2. Clonar el repositorio para mantenerse actualizado con mis cambios
 3. Hacer un 'fork' y personalizar según tus necesidades
 
+Una vez instalado
+```mv config.nvim .config/nvim```
+
 ## Antes de Empezar
 
 Si eres nuevo en Neovim, te recomiendo revisar primero la
@@ -73,7 +76,7 @@ Contiene información esencial sobre la instalación y uso básico de Neovim.
 Aparte de los [requerimientos](https://github.com/nvim-lua/kickstart.nvim?tab=readme-ov-file#install-external-dependencies)
 que pide kickstart.nvim, necesitas:
 
-1. **Nerd Font**: Necesaria para los iconos. Recomiendo [Hack Nerd Font](https://www.nerdfonts.com/).
+1. **Nerd Font**: Necesaria para los iconos. Busca tu preferida en [nerdfonts](https://www.nerdfonts.com/).
 
 2. **Terminal compatible** tanto para las NerdFonts como los backgrounds de la terminal
 (y por ende neovim). Recomiendo las siguientes:
